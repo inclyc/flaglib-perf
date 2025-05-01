@@ -18,4 +18,6 @@ sources = ["src"]
 only-include = ["src/flaglib/perf"]
 
 [dependency-groups]
-dev = []
+dev = [
+    "pytest>=8.3.5",
+]
